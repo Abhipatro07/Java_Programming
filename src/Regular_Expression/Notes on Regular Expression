@@ -1,0 +1,32 @@
+Regular Expression
+
+-> Regx is a predefined API which is present in a java.Util package.
+-> Regx is used for pattern matching and String validation.
+
+	.(dot)=> Single character
+	[] 	  => extract any single character
+	[a-z] => small alphabet
+	[A-Z] => capital character
+	[0-9] => numbers
+	
+	
+example:-
+	1. [2-5] => Any character from 2 or 3 or 4 or 5
+	2. [a-z , A-Z] => all the alphabet
+	
+
+Ranges
+
+	1. * => (n) no. of character
+	2. .* => any character on (n) no. of times 
+	3. A* => A (n) no. of times
+	
+	1. {fixed size}
+	2. {starting , ending}
+	
+	
+examples
+	1. [A , 3] {4} => GHIA(correct)
+					  abc(incorrect)
+					  
+	2. [a-z] {3,6} => min character 3 and max character 6
