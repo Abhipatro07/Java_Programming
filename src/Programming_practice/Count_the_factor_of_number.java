@@ -12,6 +12,7 @@ public class Count_the_factor_of_number {
 		for(int i = 1;i<=n;i++) {
 			if(n%i == 0) {
 				count++;
+				System.out.println(i);
 			}
 		}
 		
