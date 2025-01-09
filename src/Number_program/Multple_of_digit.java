@@ -1,4 +1,4 @@
-package Programming_practice;
+package Number_program;
 import java.util.*;
 
 public class Multple_of_digit {
